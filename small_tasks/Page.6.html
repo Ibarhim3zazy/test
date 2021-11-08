@@ -1,0 +1,479 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Page.6</title>
+	<style>
+		#head1
+		{
+			width: 100%;
+			height: 50px;
+			margin-top: 10px;
+		}
+		.logo
+		{
+			width: 5px;
+			height: 5px;
+			margin-left: 80px;
+			padding: 5px 12px;
+			background-color: #000b;
+			color: #fff;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 20px;
+		}
+		.logo:hover
+		{
+			transition: 1s;
+			background-color: #0412F7c9;
+		}
+		#contact
+		{
+			float: right;
+			margin-right: 100px;
+			font-size: 14px;
+			width: 180px;
+			height:30px;
+		}
+		#tele
+		{
+			color: #2991D6;
+			text-decoration: none;
+			float: left;
+		}
+		#tele:hover
+		{
+			text-decoration: underline;
+		}
+		#teleb1
+		{
+			float: right;
+			width: 15px;
+			height: 15px;
+			margin-left: 5px;
+			transform: scale(-1,1);
+		}
+		#teleb2
+		{
+			float: right;
+			margin-left: 30px;
+			color: #0005;
+		}
+		.head2
+		{
+			direction: rtl;
+			width: 100%;
+			height: 100px;
+		}
+		.web_logo
+		{
+			margin-right: 100px;
+			margin-top: 30px;
+			width: 100px;
+			height: 50px;
+			float: right;
+		}
+		#menu
+		{
+			margin-right: 200px;
+			height: 100px;
+			width: 70%;
+		}
+		.menu
+		{
+			float: right;
+			height: 40px;
+			width: 60px;
+			margin: 30px 0px;
+			padding-top: 15px;
+			padding-right: 25px;
+			padding-left: 15px;
+			border-left: solid;
+			border-left-color: #0004;
+			border-width: 1px;
+		}
+		.menulink
+		{
+			text-decoration: none;
+			font-size: 16px;
+			color: #000;
+		}
+		.menulink:hover
+		{
+			color: #2991D6;
+		}
+		.menutop
+		{
+			float: right;
+			height: 100px;
+			width: 100px;
+		}
+		.menutop:hover
+		{
+			border-top: solid;
+			border-top-width: 6px;
+			margin-top: -6px;
+			border-top-color: #2B3990;
+			transition: .1s;
+		}
+		#lang
+		{
+			width: 80px;
+			height: 35px;
+			float: left;
+			margin-left: 100px;
+			font-size: 14px;
+			padding-right: 10px;
+			padding-bottom: 2px;
+			margin-top: 35px;
+		}
+		#hhead3
+		{
+			direction: rtl;
+		}
+		.head3
+		{
+			color: #0007;
+			font-size: 30px;
+			font-weight: lighter;
+			margin-right: 80px;
+		}
+		.hinput
+		{
+			width: 400px;
+			height: 80px;
+			margin: 0px 10px;
+			direction: rtl;
+			float: right;
+			color: #000a;
+			font-size: 14px;
+		}
+		.inputt
+		{
+			width: 350px;
+			height: 30px;
+			border-color: #0002;
+		}
+		.inputt:hover
+		{
+			background-color: #0095eb21;
+		}
+		#htextrea
+		{
+			width: 820px;
+			height: 330px;
+			margin: 10px;
+			direction: rtl;
+			float: right;
+			color: #000a;
+			font-size: 14px;
+		}
+		#textrea
+		{
+			width: 800px;
+			height: 300px;
+			border-color: #0002;
+		}
+		#textrea:hover
+		{
+			background-color: #0095eb21;
+		}
+		#button
+		{
+			background-color: #2B3990;
+			width: 110px;
+			height: 38px;
+			color: #fff;
+			border-radius: 8px;
+			padding: 10px;
+			margin: 10px;
+			float: right;
+		}
+		#contactb
+		{
+			float: left;
+			width: 850px;
+			height: 800px;
+			margin-left: 50px;
+		}
+		.hcontactbright
+		{
+			float: left;
+			width: 400px;
+			height: 390px;
+			direction: rtl;
+			margin: 25px 10px;
+			background-color: #2B3990;
+		}
+		.cico
+		{
+			width: 30px;
+			height: 40px;
+			padding-right: 20px;
+			padding-left: 10px;
+			border-bottom: solid;
+			border-width: thin;
+			border-color: #fff3;
+			float: right;
+		}
+		.ico
+		{
+			width: 30px;
+			height: 30px;
+		}
+		.tcontact
+		{
+			width: 300px;
+			height: 50px;
+			float: right;
+			margin-top: 10px;
+			color: #fff;
+			font-weight: lighter;
+		}
+		.headcontact
+		{
+			color: #fff;
+			margin-right: 20px;
+			margin-top: 30px;
+		}
+		.lastcontact
+		{
+			width: 380px;
+			height: 500px;
+			float: right;
+			direction: rtl;
+			margin: 40px 30px;
+		}
+		.tcontact2
+		{
+			color: #fff;
+			float: right;
+			width: 350px;
+			height: 30px;
+			font-size: 14px;
+			margin-top: 2px;
+			margin-right: 10px;
+			font-weight: lighter;
+			color: #eee;
+		}
+		.ico2
+		{
+			width: 15px;
+			height: 15px;
+			float: right;
+		}
+		.headcontact2
+		{
+			color: #fff;
+			margin-right: 10px;
+			margin-top: 50px;
+			color: #eee;
+		}
+		#logo2
+		{
+			padding: 12px 20px;
+			margin-top: 20px;
+			background-color: #000b;
+			color: #fff;
+			border-radius: 5px;
+			text-decoration: none;
+			font-size: 20px;
+			float: right;
+		}
+		#logo2:hover
+		{
+			transition: 1s;
+			background-color: #0412F7c9;
+		}
+		.head4
+		{
+			color: #eee;
+		}
+		.b
+		{
+			 color: #eee;
+			font-weight: lighter;
+			float: right;
+		}
+		.button
+		{
+			width: 120px;
+			height: 50px;
+			background-color: #2B3990;
+			color: #fff;
+			font-size: 16px;
+			font-weight: lighter;
+			border-radius: 7px;
+			margin: 5px 3px;
+		}
+		@media only screen and (max-width:1000px)
+		{
+			#contact
+			{
+				float: none;
+				display: block;
+				margin: auto;
+			}
+			.logo
+			{
+				float: none;
+				display: block;
+				margin: auto;
+			}
+			#menu
+			{
+				visibility: hidden;
+			}
+			#lang
+			{
+				margin-top: 50px;
+			}
+			.web_logo
+			{
+				float: none;
+				display: block;
+				margin: auto;
+				padding: 0px 0px;
+			}
+			.head2
+			{
+				float: right;
+			}
+			.hcontactbright
+			{
+				float: left;
+				display: block;
+				width: 42%;
+				margin: 20px 30%;
+			}
+			#contactb
+			{
+				float: none;
+				margin: 0px auto;
+				width: 35%;
+			}
+			#hhead3
+			{
+				float: right;
+			}
+			.head3
+			{
+				margin: 30px 0px;
+			}
+			.logo
+			{
+				margin: 50px 0px;
+				padding: 30px 25px;
+			}
+			#htextrea
+			{
+				width: 400px;
+			}
+			#textrea
+			{
+				width: 350px;
+			}
+		}
+	</style>
+</head>
+
+<body style="margin: 0px;">
+	<div id="head1">
+		<!--<img src="facebook.ico" alt="facebook" id="logo">-->
+		<a href="https://www.facebook.com/Ibrahim.3zazy" target="_blank" title="Facebook" class="logo">f</a>
+		<div id="contact">
+			<div id="teleb2">Hotline</div>
+			<img src="tele.ico" alt="tele" id="teleb1">
+			<a href="tel:01145452440" target="_blank" id="tele">01145452440</a>
+		</div>
+	</div>
+	<div class="head2">
+		<select id="lang">
+			<option>العربيه</option>
+			<option>English</option>
+		</select>
+
+		<a href="" title="ذا اوفيس"><img src="logo.png" alt="ذا اوفيس" class="web_logo"></a>
+		<div id="menu">
+			<div class="menutop"><a href="" class="menulink"><div class="menu">الرئيسية</div></a></div>
+			<div class="menutop"><a href="" class="menulink"><div class="menu">من نحن</div></a></div>
+			<div class="menutop"><a href="" class="menulink"><div class="menu">منتجاتنا</div></a></div>
+			<div class="menutop"><a href="" class="menulink"><div class="menu">خدماتنا</div></a></div>
+			<div class="menutop"><a href="" class="menulink"><div class="menu">التحميل</div></a></div>
+			<div class="menutop"><a href="" class="menulink"><div class="menu">تواصل معنا</div></a></div>
+		</div>
+	</div>
+	<div class="head2">
+		<h1 class="head3">تواصل معانا</h1>
+	</div>
+	<img src="map.png" alt="location" width="100%" height="400px">
+	<div>
+		<div id="contactb">
+			<div id="hhead3">
+				<h2 class="head3">الشبكة الاجتماعية</h2>
+				<a href="https://www.facebook.com/Ibrahim.3zazy" target="_blank" title="Facebook" class="logo">f</a>
+				<h2 class="head3" style="margin: 100px 0px; ">كون علي اتصال بنا</h2>
+			</div>
+			<div class="hinput"><b style="display: block;">الاسم:</b><input type="text" placeholder="إسمك بالكامل" class="inputt"></div>
+			<div class="hinput"><b>البريد الالكتروني:</b><input type="text" placeholder="بريدك الالكتروني" class="inputt" dir="ltr"></div>
+			<div class="hinput"><b>عنوان الرساله:</b><input type="text" placeholder="اكتب عنوان الرساله" class="inputt"></div>
+			<div class="hinput"><b>رقم الهاتف:</b><input type="text" placeholder="رقم هاتفك" class="inputt" dir="ltr"></div>
+			<div id="htextrea"><b>نص الرساله:</b><textarea placeholder="اكتب هنا الرسالة" id="textrea"></textarea></div>
+			<div><input type="button" value="ارسال الرسالة" id="button"></div>
+		</div>
+		<div class="hcontactbright">
+			<h2 class="headcontact">فرع المهندسين</h2>
+			<div class="cico"><img src="location.png" alt="location" class="ico"></div><b class="tcontact">25 شارع شهاب، المهندسين، القاهرة، مصر</b>
+			<div class="cico"><img src="tele.ico" alt="mobile" class="ico"></div><b class="tcontact">(+20) 01145452440</b>
+			<div class="cico"><img src="tele.ico" alt="mobile" class="ico"></div><b class="tcontact">(+20) 01094989981</b>
+			<div class="cico"><img src="location.png" alt="location" class="ico"></div><b class="tcontact">(+202) 33030998</b>
+			<div class="cico"><img src="mail.png" alt="mail" class="ico"></div><b class="tcontact">I.3zazy@yahoo.com</b>
+		</div>
+		<div class="hcontactbright" style="height: 280px;">
+			<h2 class="headcontact">فرع النزهة</h2>
+			<div class="cico"><img src="location.png" alt="location" class="ico"></div><b class="tcontact">66 شارع جوزيف تيتو، النزهة، القاهرة، مصر</b>
+			<div class="cico"><img src="tele.ico" alt="mobile" class="ico"></div><b class="tcontact">(+20) 01145452440</b>
+			<div class="cico"><img src="mail.png" alt="mail" class="ico"></div><b class="tcontact">Ibrahim3zazy@Hotmail.com</b>
+		</div>
+		<div class="hcontactbright" style="height: 150px;">
+			<h2 class="headcontact">المصنع</h2>
+			<div class="cico"><img src="location.png" alt="location" class="ico"></div><b class="tcontact">البساتين، القاهرة، مصر</b>
+		</div>
+	</div>
+	<img src="map2.jpeg" alt="location" width="100%" height="350px">
+	<div style="width: 100%; height: 200px; background-color: #1E2127; color: #fff;">انشاء مكتبك في اي مكان....</div>
+	<div style="width: 100%; height: 600px; background-color: #21252B;">
+	<div class="lastcontact">
+		<h2 class="head4">عن ذا اوفيس</h2><b class="b">نحن نعمل جادين للوصول لمنتجات بجودة عالية وباسعار مناسبة لكافة عملائنا لبناء علاقة عمل طويلة
+		مهمتنا هي خلق حياة افضل للكثير كل يوم ، فكرتنا للعمل هى عرض تصميمات من الاثاث المكتبي بأسعار مقبولة.</b>
+		<a href="https://www.facebook.com/Ibrahim.3zazy" target="_blank" title="Facebook" id="logo2">f</a>
+		<a href="" title="ذا اوفيس"><img src="logo.png" alt="ذا اوفيس" style="float:right; margin-top: 80px;"></a>
+	</div>
+	<div class="lastcontact">
+		<h2 class="head4">كون علي تواصل بنا</h2>
+			<h4 class="headcontact2">فرع المهندسين</h4>
+			<img src="location.png" alt="location" class="ico2"><b class="tcontact2">25 شارع شهاب، المهندسين، القاهرة، مصر</b>
+			<img src="tele.ico" alt="mobile" class="ico2"><b class="tcontact2">(+20) 01145452440</b>
+			<img src="tele.ico" alt="mobile" class="ico2"><b class="tcontact2">(+20) 01094989981</b>
+			<img src="location.png" alt="location" class="ico2"><b class="tcontact2">(+202) 33030998</b>
+			<img src="mail.png" alt="mail" class="ico2"><b class="tcontact2">I.3zazy@yahoo.com</b>
+
+			<h4 class="headcontact2">فرع النزهة</h4>
+			<img src="location.png" alt="location" class="ico2"><b class="tcontact2">66 شارع جوزيف تيتو، النزهة، القاهرة، مصر</b>
+			<img src="tele.ico" alt="mobile" class="ico2"><b class="tcontact2">(+20) 01145452440</b>
+			<img src="mail.png" alt="mail" class="ico2"><b class="tcontact2">Ibrahim3zazy@Hotmail.com</b>
+			<h4 class="headcontact2">المصنع</h4>
+			<img src="location.png" alt="location" class="ico2"><b class="tcontact2">البساتين، القاهرة، مصر</b>
+	</div>
+	<div class="lastcontact">
+		<h2 class="head4">الخط الساخن</h2>
+		<input type="button" value="01145452440" style="width: 230px;height: 50px; background-color: #D5171A; border-radius: 8px; font-size: 18px; color: #fff;">
+		<h2 class="head4">طريق الفرع</h2>
+		<b class="b">الآن يمكنك العثور على الفروع في خريطة جوجل والحصول على الاتجاه الصحيح لها</b>
+		<input type="button" value="المهندسين" class="button">
+		<input type="button" value="النزهه" class="button">
+		<input type="button" value="الدقي" class="button">
+	</div>
+	</div>
+</body>
+</html>
