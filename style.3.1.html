@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>style.3.1</title>
+	<style>
+		.header
+		{
+			background: gray;
+			height: 150px;
+		}
+		.nav
+		{
+			float: right;
+		}
+		.nav a, .s1
+		{
+			font-size: 16px;
+			color: white;
+			background: #f03;
+			float: left;
+			padding: 30px 40px;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+		.nav a:hover, .s1:hover .s2
+		{
+			background: #f90;
+			display: block;
+		}
+		.s1
+		{
+			position: relative;
+			display: block;
+		}
+		.s2
+		{
+			position: absolute;
+			display: none;
+			left: 30px;
+			margin-top: 30px;
+		}
+		.s2 a
+		{
+			display: block;
+			float: none;
+		}
+	</style>
+</head>
+
+<body style="margin: 0px;">
+	<div class="header">
+		<div class="nav">
+			<a href="">home</a>
+			<a href="">about</a>
+			<div class="s1">
+				products
+				<div class="s2">
+					<a href="">pro1</a>
+					<a href="">pro2</a>
+					<a href="">pro3</a>
+				</div>
+			</div>
+			<a href="">contact</a>
+		</div>
+	</div>
+	<div class="slider">
+	<img src="cover.jpg" width="100%" height="100%" alt="img"/>
+	</div>
+</body>
+</html>
